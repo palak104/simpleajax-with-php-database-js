@@ -1,0 +1,31 @@
+* {
+    margin: 5px;
+    padding: 5px;
+  
+}
+
+body{
+    background-color: khaki;
+
+}
+
+
+h1{
+   
+    font-size: 70px;
+    
+}
+img {
+    float: left;
+    height: 100px;
+    width: 130px;
+   
+}
+
+.formdiv{
+    float: left;
+    
+}
+p{
+    font-size: 25px;
+}

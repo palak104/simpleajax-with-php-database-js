@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--  
+I palak depani ,student no - 000787449 , cerify that all code submitted is my own work;
+that i have not copied from any other source .
+I also certify that i have not allowed my work to be copied by other.
+
+Purpose of this assignment is to display list of student with their grade from database
+uing ajax call.
+-->
+<html>
+
+
+<head>
+    <title>Student Grade</title>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/student.css">
+    
+    
+
+</head>
+<body>
+
+        <div id ="header">
+            <img src ="clg.jpg" src="clg logo">
+            <h1> Student grade list</h1>
+            
+        </div>
+        <div id="formdiv">
+            <br>
+            <p>Insert new record here- </p>
+            <form action="insert.php" method="POST">
+            <input type ="text" id="name" name ="name" placeholder ="Your Name">
+            <input type = "number" id="grade" name ="grade"  placeholder="enter marks">
+            <input type ="submit"  value="Add !">
+        </form>
+            <span id ="target">
+  <p>Insert new record here- </p>
+            <form action="insert.php" method="POST">
+            <input type = "number" id="stockid" name ="stockid"  placeholder="Enter Price">
+            <input type ="text" id="stock" name ="stockname" placeholder ="Stock Name">
+            <input type = "number" id="price" name ="price"  placeholder="Enter Price">
+            <input type ="submit"  value="Add !">
+        </form>
+        <script src="js/data.js"></script> 
+            </span>
+        </div>
+    
+    <script src="js/helloajax.js"></script> 
+</body>
+</html>
